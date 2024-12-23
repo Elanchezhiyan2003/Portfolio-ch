@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body>
+    <script src="portfolio.js"></script>
+    <div class="main-div">
+        <div class="navbar-div">
+            <div class="logo">Elanchezhiyan Mahendiran</div>
+            <div class="menu">
+                <a href="#home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Education">Education</a>
+                <a href="#Project">Project</a>
+            </div>
+    
+        </div>
+        <div class="section-div">
+            <div class="img-div">
+                <img src=" dq.jpg" alt="">
+            </div>
+            <div class="edu">
+                <p id="hello">Hello !</p>
+                <h1>I Am Web Developer</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptates doloribus, nisi sed minima quas harum! Doloribus nulla est consequuntur.
+                </p>
+                <div class="pdf">
+
+                    <a class="download-div" href="#Contact-us">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="abt" id="About">
+            <p id="name-div">I am Professional Web Developer</p>
+            <p>In the realm where creativity intertwines with technical prowess, I orchestrate a symphony of digital artistry. With expertise spanning web development, photography, design, app innovation, video editing, and the intricacies of SEO, I sculpt immersive digital experiences that transcend the ordinary. From the inception of dynamic websites propelled by cutting-edge technologies to the strategic optimization of online content, I navigate the digital landscape with finesse, driving visibility, and igniting organic growth.
+            </p>
+            
+            <div class="list-div">
+                <ul>
+                    <li>Name</li>
+                    <li>Age</li>
+                    <li>Address</li>
+                    <li>E-mail</li>
+                    <li>Freelance</li>
+                </ul>
+                <ul>
+                    <li>:</li>
+                    <li>:</li>
+                    <li>:</li>
+                    <li>:</li>
+                    <li>:</li>
+                </ul>
+                <ul>
+                    <li>Elanchezhiyan M</li>
+                    <li>21</li>
+                    <li>Namakkal</li>
+                    <li><a  id="email-id" href="mailto:chezhiyanmahi2020@gmail.com">chezhiyanmahi2020@gmail.com</a></li>
+                    <li>Available</li>
+                </ul>
+              </div>
+            <div class="pdf">
+
+                <a class="download-div" href="/ELANCHEZHIYAN's Resume (3).pdf" download="MyFile.pdf">Download Resume</a>
+            </div>
+        </div>
+        <!-- <div class="hr"></div> -->
+        <div class="Edu-1" id="Education">Education</div>
+        <div class="timeline">
+            <!-- Education 1 -->
+              <div class="timeline-item">
+                  <h4 class="item-title">Computer Science and Engineering </h4>
+                  <span class="item-period">2024</span>
+                  <span class="item-small">CGPA : 8.9</span>
+                  <p class="item-description">GNANAMANI COLLEGE OF TECHNOLOGY, NAMAKKAL(Anna University)</p>
+              </div>
+              <div class="timeline-item">
+                  <h4 class="item-title">MATHS COMPUTER SCIENCE</h4>
+                  <span class="item-period">2020</span>
+                  <span class="item-small">Percentage: 57%</span>
+                  <p class="item-description">GOVERNMENT HIGHER SECONDARY SCHOOL, RASIPURAM</p>
+              </div>
+              <div class="timeline-item">
+                  <h4 class="item-title">State Board</h4>
+                  <span class="item-period">2018</span>
+                  <span class="item-small">Percentage: 65%</span>
+                  <p class="item-description">BRINDAVAN MATRIC HR SEC SCHOOL,THUTHIKULAM</p>
+              </div>
+          </div>
+          <div class="Edu-2" id="Project">Projects</div>
+          <div class="projects-container">
+            <div class="project-card">
+                <img src=" flex.jpg" alt="Project Image">
+                <h2>Project 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+                <button class="project-btn">View Project</button>
+            </div>
+            <div class="project-card">
+                <img src=" flex.jpg" alt="Project Image">
+                <h2>Project 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+                <button class="project-btn">View Project</button>
+            </div>
+            <div class="project-card">
+                <img src=" flex.jpg" alt="Project Image" >
+                <h2>Project 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+                <button class="project-btn">View Project</button>
+            </div>
+        </div>
+          <div class="contact-form" id="Contact-us">
+            <h2>Contact Us</h2>
+            <form action="mailto:example@example.com" method="post" enctype="text/plain">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required style="color: rgb(106, 241, 241);">
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required style="color: rgb(106, 241, 241);">
+    
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" style="color: rgb(106, 241, 241);">
+    
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required style="color: rgb(106, 241, 241);"></textarea>
+    
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">▲</button>
+    </div>
+
+</body>
+</html>
